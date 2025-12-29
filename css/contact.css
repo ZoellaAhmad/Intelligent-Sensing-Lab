@@ -1,0 +1,39 @@
+/* contact page */
+
+h2 {
+    text-align: center;
+    display: block;
+}
+
+table {
+    display: block;
+    width: 70%;
+    margin: 5% auto 5% auto; 
+}
+
+.header, td{
+    border: 1px solid black;
+    padding: 3px;
+}
+table, .header, td{
+    border-collapse: collapse;
+    text-align: center;
+    clear: both;
+}
+
+table tr:nth-child(odd) {
+    background-color: #779dd9;
+}
+table tr:nth-child(even) {
+    background-color: #9db0cf;
+}
+
+table tr:hover {
+    background-color: #2e2aaf;
+    color: white; 
+}
+th {
+    background-color:#2f4569;
+    color: white;
+}
+

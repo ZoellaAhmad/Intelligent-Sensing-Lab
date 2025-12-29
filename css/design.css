@@ -1,0 +1,49 @@
+/* design page */
+h1 {
+    display: block;
+    text-align: center;
+}
+
+h2 {
+    display: inline-block;
+    height: auto;
+    width: 45%;
+    text-align: center;
+    margin: 0 auto;
+    background-color:#adcfed;
+    padding: 2%;
+    border-radius: 10%;
+    border: 2px dotted #0c2c47;
+
+
+}
+
+.mcontainer {
+    width: 60%;
+    margin: 0 auto;
+    max-width: 70%;
+
+}
+
+.infoCSS {
+    border: 1px solid rgb(42, 42, 99);
+    background-color: #cbe7ff;
+    border-radius: 5%;
+    width: 70%;
+    margin: 2% auto;
+    padding: 2%;
+    
+}
+
+.infoJS {
+    border: 2px solid rgb(48, 48, 201);
+    background-color: #1b5283;
+    border-radius: 5%;
+    width: 70%;
+    margin: 2% auto;
+    padding: 2%;
+    color: white;
+    
+}
+
+

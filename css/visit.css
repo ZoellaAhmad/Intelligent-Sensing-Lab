@@ -1,0 +1,109 @@
+/* visit page */
+
+.welcome {
+    background-color:#adcfed;
+    padding: 10px;
+    display: block;
+    margin-bottom: 1%;
+}
+.welcome > p {
+    padding-left: 2%;
+}
+
+.bullet {
+    margin: 0 auto;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+div > img {
+    background-color: #071c3d;
+    border-radius: 5%;
+    padding: 0.5%;
+    margin: 2%;
+    width: 30%;
+    height: auto;
+    max-width: 45%;
+    box-shadow: 5px 5px 5px rgba(128,128,128,0.5);
+    display: inline;
+    float: left;
+}
+
+.location {
+    display: inline;
+    float: right;
+    max-width: 49%;
+    width: 30%;
+    margin: 7% 10% 2% 10%;
+    padding: 0.5%;
+    background-color: #adcfed;
+    padding-left: 2%;
+    padding-right: 2%;
+    border: 5px double #071c3d;
+}
+    
+.container {
+    display: inline;
+    max-width: 49%;
+    width: 40%;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    margin-right: 2%;
+}
+
+button {
+    border: outset;
+    background-color:#adcfed;
+    margin-top: 1%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    clear: right;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+label {
+    display: block;
+ }
+
+.labelcontainer {
+    display: inline-block;
+}
+
+.fieldcontainer {
+    display: inline-block;
+}
+.buttoncontainer {
+    display: block;
+}
+.opendayheading {
+    width: 100%;
+    display: block;
+    clear: both;
+    margin: 2% auto;;
+    text-align: center;
+    padding: 10px 0;
+}
+
+span {
+    font-weight: bold;
+}
+
+#msgDisplay {
+    color:red; 
+    text-align:center;
+}
+
+form {
+    clear: both;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+
+

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Zoella Ahmad">
+    <meta name="description" content="CS2204 CW-1">
+    <meta name="keywords" content="HTML, CSS, Javascript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/design.css">
+    <link rel="stylesheet" href="../css/all.css" media="screen">
+
+    <title>Intelligent Sensing Lab - Design</title>
+</head>
+
+
+<body>
+    <!--Header/banner block -->
+    <header>
+        <img src="../image/logo.png" alt="Intelligent Sensing Lab Logo" width="550" height="150">
+        <h1>Intelligent Sensing Lab</h1>
+        <div class="box">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </header>
+
+
+    <!--Navigation block-->
+    <nav>
+        <a class="navlink" href="home_page.html">Home</a>
+        <a class="navlink" href="about.html">About</a>
+        <a class="navlink" href="apply.html">Apply</a>
+        <a class="navlink" href="visit.html">Visit</a>
+        <a class="navlink" href="information.html">Information</a>
+        <a class="navlink" href="contact.html">Contact</a>
+    </nav>
+
+    <h1>Design Page</h1>
+    <div class="mcontainer">
+        <h2>Name: Zoella Ahmad</h2>
+        <h2>SID: 59901527</h2>
+    </div>
+
+    <div class="infoCSS">
+        <h3>Use of positioning schemes:</h3>
+        <h4>Sticky:</h4>
+        <p>Used to make the navigation bar stick to the top of the page when the user scrolls.</p>
+        <p>Used at:</p>
+        <ul>
+            <li><strong>line 111 (CW3/html/home_page.html)</strong></li>
+            <li><strong>line 100 (CW3/css/all.css)</strong></li>
+        </ul>
+        <h4>Absolute:</h4>
+        <p>Used for the squares in the animations.</p>
+        <p>Used at:</p>
+        <ul>
+            <li><strong>line 27 (CW3/html/home_page.html)</strong></li>
+            <li><strong>line 16 (CW3/css/all.css)</strong></li>
+        </ul>
+    </div>
+    <div class="infoCSS">
+        <h3>Different kinds of CSS3 techniques:</h3>
+        <h4>Animations:</h4>
+        <p>The same animation is applied to the header of each page. Hollow squares are generated, after which they enlargen, rotate, and disapper.</p>
+        <p>Used at:</p>
+        <ul>
+            <li><strong>line 91 (CW3/html/home_page.html)</strong></li>
+            <li><strong>line 80 (CW3/css/all.css)</strong></li>
+        </ul>
+        <h4>Transitions:</h4>
+        <p><strong>In (CW3/html/home_page.html), line 161,</strong> a scale-down transition is applied to the "APPLY NOW" image, triggered by hovering.</p>            
+        <p><strong>In (CW3/css/about.css), line 28,</strong> a scale-down transition is applied to the 'about' block, triggered by hovering.</p>
+        <p><strong>In (CW3/css/apply.css), lines 129,</strong> a scale-up transition is applied to the division headings, triggered by hovering.</p>
+        <h4>Basic techniques:</h4>
+        <p><strong>Box-shadows</strong> are implemented in (CW3/css/home-page.html), line 180, (CW3/css/visit.css), line 28, and (CW3/css/information.css), line 12.</p>
+        <p><strong>Round corners</strong> are implemented in (CW3/css/home_page.html), lines 174 and 194, and (CW3/css/visit.css), lines 22 and 55, and (CW3/css/design.css), lines 15, 31 and 41.</p>
+        <p><strong>Transform</strong> is used in (CW3/css/home-page.html), lines 22, 93, 97, and 160, and (CW3/css/about.css), line 27, and (CW/css/apply.css), line 128, and in (CW3/css/all.css), lines 11, 82, 86</p>
+        <p><strong>Gradient</strong> is used in the headers and footers of every page.</p>
+        <ul>
+            <li>lines 24 and 187 (CW3/html/home_page.html)</li>
+            <li>lines 13 and 130 (CW3/css/all.css)</li>
+        </ul> 
+    </div>
+
+
+    <div class="infoJS">
+        <h3>Event Handling Methods:</h3>
+        <h4>HTML</h4>
+        <p>The <strong>onclick</strong> attribute is used within tags to handle events.</p>
+        <ul>
+            <li>line 107 (CW3/html/visit.html)</li>
+            <li>line 108 (CW3/html/visit.html)</li>
+        </ul>
+        <h4>JavaScript</h4>
+        <p>The <strong>addEventListener()</strong> method, and <strong>onload</strong> and <strong>onclick</strong> properties are used in the scripts to handle events.</p>
+        <ul>
+            <li>line 9 (CW3/js/information.js) - onload is used to start the looping of the promotional messages as soon as the window has finished loading.</li>
+            <li>line 27 (CW3/js/information.js) - addEventListener() is used to detect when the video has finished playing completely.</li>
+            <li>line 11 (CW3/js/apply.js) - onload is used to show the divisions and groups in a default way as soon as the window has finished loading.</li>
+            <li>line 17 (CW3/js/apply.js) - onclick is used to implement the show/hide effect when a heading is clicked.</li>
+            <li>line 26 (CW3/js/apply.js) - onclick is used to implement the show/hide effect when a heading is clicked.</li>
+            <li>line 35 (CW3/js/apply.js) - onclick is used to implement the show/hide effect when a heading is clicked.</li>
+            <li>line 60 (CW3/js/apply.js) - onclick is used to call an anonymous function to handle the entered rank when 'rank of choice' is clicked.</li>
+            <li>line 207 (CW3/js/apply.js) - onclick is used to call an anonymous function to display the resulting message when 'submit' is clicked.</li>
+            <li>line 254 (CW3/js/apply.js) - onclick is used to call an anonymous function to clear everything and update some values when 'clear' is clicked.</li>
+            
+        </ul>
+    </div>
+
+    <div class="infoJS">
+        <h3>Use of ES6 Features</h3>
+        <h4>let:</h4>
+        <p>let is used in all the following lines since it is block-scoped; it is much easier to work with than var. Moreover, since I have used the same identifier ("i") for each independent loop (in the line numbers with "*"), it is important that the value of i from any previous loops does not carry over to the next one.</p>
+        <ul>
+            <li>line 14 (CW3/js/information.js)</li>
+            <li>line 32 (CW3/js/information.js)</li>
+            <li>line 34 (CW3/js/information.js)</li>
+            <li>line 35 (CW3/js/information.js)</li>
+            <li>line 5 (CW3/js/visit.js)</li>
+            <li>line 10 (CW3/js/visit.js)</li>
+            <li>line 51 (CW3/js/visit.js)</li>
+            <li>line 67 (CW3/js/visit.js)</li>
+            <li>line 13 (CW3/js/apply.js)</li>
+            <li>line 45 (CW3/js/apply.js)</li>
+            <li>line 46 (CW3/js/apply.js)</li>
+            <li>line 47 (CW3/js/apply.js)</li>
+            <li>line 48 (CW3/js/apply.js)</li>
+            <li>line 50 (CW3/js/apply.js)</li>
+            <li>line 51 (CW3/js/apply.js)</li>
+            <li>line 52 (CW3/js/apply.js)</li>
+            <li>line 53 (CW3/js/apply.js)</li>
+            <li>line 54 (CW3/js/apply.js)</li>
+            <li>line 55 (CW3/js/apply.js)</li>
+            <li>line 56 (CW3/js/apply.js)</li>
+            <li>line 59* (CW3/js/apply.js)</li>
+            <li>line 62 (CW3/js/apply.js)</li>
+            <li>line 78 (CW3/js/apply.js)</li>
+            <li>line 106 (CW3/js/apply.js)</li>
+            <li>line 147 (CW3/js/apply.js)</li>
+            <li>line 170 (CW3/js/apply.js)</li>
+            <li>line 208 (CW3/js/apply.js)</li>
+            <li>line 217 (CW3/js/apply.js)</li>
+            <li>line 218 (CW3/js/apply.js)</li>
+            <li>line 219 (CW3/js/apply.js)</li>
+            <li>line 220* (CW3/js/apply.js)</li>
+            <li>line 234* (CW3/js/apply.js)</li>
+            <li>line 253 (CW3/js/apply.js)</li>
+            <li>line 258* (CW3/js/apply.js)</li>
+            <li>line 266* (CW3/js/apply.js)</li>
+            <li>line 270* (CW3/js/apply.js)</li>
+        </ul>
+        <h4>const:</h4>
+        <p>const is used in the following lines to store items that need not be changed - and its use ensures that.</p>
+        <ul>
+            <li>line 26 (CW3/js/information.js)</li> 
+            <li>line 5 (CW3/js/apply.js)</li>
+            <li>line 6 (CW3/js/apply.js)</li>
+            <li>line 7 (CW3/js/apply.js)</li>
+            <li>line 8 (CW3/js/apply.js)</li>
+            <li>line 9 (CW3/js/apply.js)</li>
+            <li>line 10 (CW3/js/apply.js)</li>
+            <li>line 49 (CW3/js/apply.js)</li>
+            <li>line 206 (CW3/js/apply.js)</li>
+        </ul>
+        <h4>map:</h4>
+        <p>dataMap, a map, is defined in lines 10-14 inclusive in the file CW3/js/visit.js. Since the name of each key is known and immediately points us to its value, it is more efficient than using, for example, an array to store visitorNum, date, and time. The map was especially useful when arguments were to be passed to the reserve() function - I did not have to write extra code to determine which data value had to go as which parameter.</p>
+    </div>
+    <div class="infoCSS">
+        <p>Overall, there is a clear distinction between structure, style, and script.</p>
+        <h3>How styles are grouped:</h3>
+        <p>Both the embedded and style sheet method has been used. All the folders - except for (CW3/html/home_page.html), which uses embedded style - have style sheets linked to them. </p>
+        <p>A separate style sheet (CW3/css/all.css) has been used to apply the header and footer styles and animation to every page.</p>
+        <h3>How scripts are grouped:</h3>
+        <p>Both the inline and linked files method have been used. Embedded style was not used since it did not seem useful or sensible for this project.</p>
+    </div>   
+
+    
+    
+    <!--Footer block-->
+    <footer>
+        <img src="../image/footer_logo.png" alt="Intelligent Sensing Lab footer logo" width="460" height="100">
+        <p>&copy; CityU 2025 - sources of images and text from Wikipedia and Courtesy of Icon pack by Icons8 - designed by <a href="design.html">Zoella Ahmad</a></p>
+    </footer>
+    
+</body>
+
+
+
+</html>

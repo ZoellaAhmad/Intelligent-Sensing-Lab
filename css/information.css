@@ -1,0 +1,54 @@
+/* information page*/
+.maincontainer > h2 {
+    float: left;
+    display: inline;
+    width: 50%;
+    clear: right;
+    padding-left: 1%;
+    margin-left: 2%; 
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #779dd9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);;
+
+}
+
+.maincontainer > video {
+    float: right;
+    display: inline;
+    width: 30%;
+    height: auto;
+    padding-right: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 1%;
+}
+
+table {
+    display: block;
+    width: 55%;
+    max-width: 60%;
+    margin: 0 auto 2% auto;
+}
+
+
+td, th{
+    border: 1px solid black;
+    padding: 3px;
+}
+table, td{
+    border-collapse: collapse;
+    text-align: center;
+    clear: both;
+}
+table tr:nth-child(odd) {
+    background-color: #779dd9;
+}
+table tr:nth-child(even) {
+    background-color: #9db0cf;
+}
+th {
+    background-color:#2f4569;
+    color: white;
+}
+

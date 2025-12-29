@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Zoella Ahmad">
+    <meta name="description" content="CS2204 CW-1">
+    <meta name="keywords" content="HTML, CSS, Javascript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Intelligent Sensing Lab - Home</title>
+
+    <style>
+        body {
+            margin: 0 auto;
+            padding: 0;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        header {
+            text-align: center;
+            padding: 10px;
+            transform: translate(-50, -50);
+            overflow: auto;
+            background: linear-gradient(90deg,#8396b9, #053760, #8396b9);
+        }
+        .box div {
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            background-color: transparent;
+            border: 3px solid rgba(255, 255, 255, 1);
+        }
+
+        .box div:nth-child(1) {
+            top: 10%;
+            left: 10%;
+            animation: animate 10s linear infinite;
+        }
+        .box div:nth-child(2) {
+            top: 10%;
+            left: 80%;
+            animation: animate 5s linear infinite;
+        }
+        .box div:nth-child(3) {
+            top: 35%;
+            left: 12%;
+            animation: animate 9s linear infinite;
+        }
+        .box div:nth-child(4) {
+            top: 30%;
+            left: 80%;
+            animation: animate 4s linear infinite;
+        }
+        .box div:nth-child(5) {
+            top: 35%;
+            left: 87%;
+            animation: animate 10s linear infinite;
+        }
+        
+        .box div:nth-child(6) {
+            top: 35%;
+            left: 70%;
+            animation: animate 7s linear infinite;
+        }
+        .box div:nth-child(7) {
+            top: 5%;
+            left: 70%;
+            animation: animate 5s linear infinite;
+        }
+        .box div:nth-child(8) {
+            top: 8%;
+            left: 15%;
+            animation: animate 8s linear infinite;
+        }
+        .box div:nth-child(9) {
+            top: 1%;
+            left: 5%;
+            animation: animate 7s linear infinite;
+        }
+        .box div:nth-child(10) {
+            top: 20%;
+            left: 20%;
+            animation: animate 6s linear infinite;
+        } 
+        .box div:nth-child(11) {
+            top: 37%;
+            left: 5%;
+            animation: animate 6s linear infinite;
+        }
+
+        @keyframes animate {
+            0%{
+                transform: scale(0) translateY(0) rotate(0);
+                opacity: 1;
+            }
+            100% {
+                transform: scale(1.3) translateY(-90px) rotate(360deg);
+                opacity: 0;
+            }
+        }
+        
+
+
+        nav {
+            background-color: #0c2c47;
+            display: block;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            text-align: center;
+            margin: 0 auto;
+            position: sticky;
+            top: 0;
+            z-index: 1;
+        }
+        .navlink {
+            width: 10%;
+            margin: 0 auto;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+        .navlink:link {
+            color: white;
+            text-decoration: none;
+        }
+        .navlink:visited {
+            color: lightblue;
+            text-decoration: none;
+        }
+        .navlink:hover {
+            color: greenyellow;
+            text-decoration: none;
+        }
+        .navlink:active {
+            color: purple;
+            text-decoration: none;
+        }
+
+        .welcome {
+            background-color: #adcfec;
+            padding: 10px;
+        }
+
+        .info {
+            float: left;
+            width: 45%;
+            padding: 1%;
+            max-width: 49%;
+        }
+            
+        .buttonImage {
+            max-width: 80%;
+            width: 70%;
+            height: auto;
+            display: block;
+            clear: left;
+            margin: 0 auto;
+        }   
+
+        .buttonImage:hover {
+            transform: scale(0.9);
+            transition: 0.5s;
+        }
+        .wrapperContainer {
+            display: inline;
+            max-width: 100%;
+        }
+        .location {
+            float: left;
+            width: 45%;
+            text-align: center;
+        }
+        dd > img {
+            background-color: #071c3d;
+            border-radius: 5%;
+            padding: 0.5%;
+            margin: 0;
+            width: 60%;
+            height: auto;
+            max-width: 80%;
+            box-shadow: 5px 5px 5px rgba(128,128,128,0.5);
+            overflow: auto;
+            margin: 0 auto;
+        }
+        footer {
+            display: block;
+            text-align: center;
+            background: -webkit-radial-gradient(ellipse,#adcfed, #053760);
+            clear: both;
+            padding: 10px;
+        }
+
+        span {
+            background-color: #adcfec;
+            border-radius: 15%;
+            padding: 2px;
+        }
+        @media (max-width: 768px) {
+            .location {
+                width: 50%;
+                float: left;
+            }
+        
+            .navlink {
+                min-width: 100px;
+                padding: 8px 10px;
+                font-size: 0.9em;
+                margin: 0 2px;
+            }
+        }
+    </style>
+</head>
+
+
+<body>
+    <!--Header/banner block -->
+    <header>
+        <img src="../image/logo.png" alt="Intelligent Sensing Lab Logo" width="550" height="150">
+        <h1>Intelligent Sensing Lab</h1>
+        <div class="box">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </header>
+    
+
+
+    <!--Navigation block-->
+    <nav>
+        <a class="navlink" href="home_page.html">Home</a>
+        <a class="navlink" href="about.html">About</a>
+        <a class="navlink" href="apply.html">Apply</a>
+        <a class="navlink" href="visit.html">Visit</a>
+        <a class="navlink" href="information.html">Information</a>
+        <a class="navlink" href="contact.html">Contact</a>
+    </nav>
+
+    <!--Welcome block-->
+    <div class="welcome">
+        <h2>Welcome to Intelligent Sensing Lab</h2>
+        <p>Intelligent Sensing Lab is a cutting-edge research center located in Hong Kong, dedicated to advancing sensor technology and its applications. Spanning over 50,000 square feet in Kowloon's High-Tech Park, our facility houses state-of-the-art laboratories and collaborative spaces where researchers develop next-generation sensing solutions.</p>
+        <p>Our lab focuses on three core research domains:</p>
+        <ul>
+            <li><strong>Optical Sensing:</strong> Developing advanced imaging and spectroscopy systems</li>
+            <li><strong>Bio-Sensing:</strong> Creating medical diagnostic and environmental monitoring tools</li>
+            <li><strong>Smart Sensing:</strong> Integrating AI with sensor networks for intelligent systems</li>
+        </ul>
+        <p>With partnerships across 30+ countries and collaborations with leading institutions like MIT and ETH Zurich, we're pioneering sensing technologies that solve real-world challenges from healthcare to urban sustainability.</p>
+    </div>  
+    
+    <!--Basic information block-->
+    <div class="wrapperContainer">
+        <div class="info">
+            <dl>
+                <dt><span>Address</span></dt>
+                <dd>Tat Chee Avenue,</dd>
+                <dd>Kowloon,</dd>
+                <dd>Hong Kong SAR</dd>
+                <dt><span>Tel</span></dt>
+                <dd>(852) 9876 5432</dd>
+                <dt><span>Business Hours</span></dt>
+                <dd>8:00 AM to 20:00 PM</dd>
+            </dl>
+        </div>
+        <div class="location">
+            <dl>
+                <dt><span>Location</span></dt>
+                <dd><img src="../image/location.png" alt="Intelligent Sensing Lab location map" width="500" height="500"></dd>
+            </dl>
+            <div class="buttonImage">
+                <a href="apply.html">
+
+                    <img src="../image/button.png" alt="Intelligent Sensing Lab Apply button" width="400" height="100">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer block-->
+    <footer>
+        <img src="../image/footer_logo.png" alt="Intelligent Sensing Lab footer logo" width="460" height="100">
+        <p>&copy; CityU 2025 - sources of images and text from Wikipedia and Courtesy of Icon pack by Icons8 - designed by <a href="design.html">Zoella Ahmad</a></p>
+    </footer>
+    
+</body>
+
+
+
+</html>

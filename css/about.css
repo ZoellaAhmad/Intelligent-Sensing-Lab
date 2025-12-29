@@ -1,0 +1,77 @@
+
+th {
+    background-color: #34568c;
+    border: 1px solid #071c3d;
+}
+td {
+    border: 1px solid #071c3d;
+    background-color: #779dd9;
+    text-align: center;
+}
+
+caption {
+    background-color: #2f4569;
+    padding: 2px;
+    color: rgb(150, 183, 250);
+}
+caption:hover{
+    background-color: #2e2aaf;
+    color: white; 
+}
+table tr:hover > td {
+    background-color: #2e2aaf;
+    color: white; 
+}
+
+.information:hover {
+    transform: scale(0.8);
+    transition: 0.9s ease;
+}
+.information {
+    float: left;
+    max-width: 80%;
+    width: 48%;
+    border: 1px solid black;
+    display: block;
+    padding: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin: 0.5% 0.5%;
+}
+
+table {
+    float: left;
+    display: block;
+    max-width: 99%;
+    width: 98%;
+    clear: right;
+    margin: 0 auto;
+    border: 1px solid #071c3d;
+    border-collapse: collapse;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    overflow: auto;
+}
+.wrapper {
+    float: right;
+    width: 45%;
+    max-width: 48%;
+}
+img {
+    max-width: 100%;
+    margin-bottom: 0;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    background: -webkit-radial-gradient(ellipse,#adcfed, #053760);
+    clear: both;
+    padding: 10px;
+    }
+
+@media (max-width: 768px) {
+    table {
+        width: 20%;
+    }
+}

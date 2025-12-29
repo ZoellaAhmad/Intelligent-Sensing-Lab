@@ -1,0 +1,142 @@
+/* This file is not required; it applies the css effects that are common for all the pages, like the header and footer styles, animation, etc. */
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    transform: translate(-50, -50);
+    overflow: auto;
+    background: linear-gradient(90deg,#8396b9, #053760, #8396b9);
+}
+.box div {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    border: 3px solid rgba(255, 255, 255, 1);
+}
+
+.box div:nth-child(1) {
+    top: 10%;
+    left: 10%;
+    animation: animate 10s linear infinite;
+}
+.box div:nth-child(2) {
+    top: 10%;
+    left: 80%;
+    animation: animate 5s linear infinite;
+}
+.box div:nth-child(3) {
+    top: 35%;
+    left: 12%;
+    animation: animate 9s linear infinite;
+}
+.box div:nth-child(4) {
+    top: 30%;
+    left: 80%;
+    animation: animate 4s linear infinite;
+}
+.box div:nth-child(5) {
+    top: 35%;
+    left: 87%;
+    animation: animate 10s linear infinite;
+}
+        
+.box div:nth-child(6) {
+    top: 35%;
+    left: 70%;
+    animation: animate 7s linear infinite;
+}
+.box div:nth-child(7) {
+    top: 5%;
+    left: 70%;
+    animation: animate 5s linear infinite;
+}
+.box div:nth-child(8) {
+    top: 8%;
+    left: 15%;
+    animation: animate 8s linear infinite;
+}
+.box div:nth-child(9) {
+    top: 1%;
+    left: 5%;
+    animation: animate 7s linear infinite;
+}
+.box div:nth-child(10) {
+    top: 20%;
+    left: 20%;
+    animation: animate 6s linear infinite;
+} 
+.box div:nth-child(11) {
+    top: 37%;
+    left: 5%;
+    animation: animate 6s linear infinite;
+}
+
+@keyframes animate {
+    0%{
+        transform: scale(0) translateY(0) rotate(0);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1.3) translateY(-90px) rotate(360deg);
+        opacity: 0;
+    }
+}
+        
+
+
+nav {
+    background-color: #0c2c47;
+    display: block;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    margin: 0 auto;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.navlink {
+    width: 10%;
+    margin: 0 auto;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.navlink:link {
+    color: white;
+    text-decoration: none;
+}
+.navlink:visited {
+    color: lightblue;
+    text-decoration: none;
+}
+.navlink:hover {
+    color: greenyellow;
+    text-decoration: none;
+}
+.navlink:active {
+    color: purple;
+    text-decoration: none;
+    }
+
+footer {
+    display: block;
+    text-align: center;
+    background: -webkit-radial-gradient(ellipse,#adcfed, #053760);
+    clear: both;
+    padding: 10px;
+    }
+
+@media (max-width: 768px) {
+    .navlink {
+        min-width: 100px;
+        padding: 8px 10px;
+        font-size: 0.9em;
+        margin: 0 2px;
+    }
+}
