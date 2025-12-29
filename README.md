@@ -26,7 +26,7 @@ A web development project for the course CS2204 Fundamentals of Internet Applica
 ## Installation 
 First method: <br>
 - Click 'Code'
-- Click 'Download zip' to obtain a local zip file
+- Click 'Download ZIP' to obtain a local zip file
 
 Second method: <br>
 - Clone the repository using:
