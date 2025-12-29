@@ -30,6 +30,8 @@ First method: <br>
 
 Second method: <br>
 - Clone the repository using:
+```https://github.com/ZoellaAhmad/Intelligent-Sensing-Lab.git```
+- Open the `index.html` file in your web browser
 
   
 
