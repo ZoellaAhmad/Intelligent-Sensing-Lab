@@ -52,6 +52,27 @@ function resetFunction () {
     errMsg.setAttribute("style", "display:none;");
 };
 
+function reserve(date, time, no) {
+    /* 
+    date: the date of reservation
+    time: the time of reservation 
+    no: the number of people, type: int
+    */
+
+    if (arguments.length != 3) {
+        alert("incorrect arguments detected"); 
+        return;
+    }
+    // a random int as the valid quota 
+    let valid_quota = Math.floor(Math.random() * 2.0 * no);
+    if (no > valid_quota) return false // the quota is full
+    else return true; // the quota is not full
+
+}
+
+
+
+
 
 
 
